@@ -124,3 +124,59 @@ header {
     font-weight: 700;
     text-align: center;
 }
+.card{
+    text-align: center;
+}
+.card > ol{
+    display: block;
+    text-align: center;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+.btn {
+    padding: 0 20px;
+    height: 40px;
+    font-size: 1em;
+    font-weight: 900;
+    text-transform: uppercase;
+    border: 3px black solid;
+    border-radius: 2px;
+    background: transparent;
+    cursor: pointer;
+    margin-bottom: 10px;
+    list-style: none;
+    border: 0;
+    margin: 15px 0;
+    background-color: #f1c40f;
+    font-weight: 400;
+}
+
+footer {
+    margin-top: 30px;
+    background-color: #ddd;
+    padding: 20px;
+}
+footer > ul {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+}
+footer > ul > li{
+    list-style: none;
+    text-decoration: none;
+    padding: 10px;
+    color:black
+}
+footer > ul > li > a{
+    list-style: none;
+    text-decoration: none;
+    padding: 10px;
+    color:black
+}
+footer span{
+    display: flex;
+    justify-content: flex-end;
+}
